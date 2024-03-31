@@ -24,7 +24,7 @@ pct exec $ID bash -- -c "echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config"
 pct exec $ID sh -- -c "echo '' > /etc/motd"
 
 pct exec $ID sh -- -c "echo '##############################' >> /etc/motd"
-pct exec $ID sh -- -c "echo '# Hosted by ErtixNodes       #' >> /etc/motd"
+pct exec $ID sh -- -c "echo '# Hosted by AndrijaHosting   #' >> /etc/motd"
 pct exec $ID sh -- -c "echo '# Free VPS Hosting           #' >> /etc/motd"
 pct exec $ID sh -- -c "echo '##############################' >> /etc/motd"
 
